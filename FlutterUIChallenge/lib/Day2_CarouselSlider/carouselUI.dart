@@ -41,14 +41,14 @@ class CarouselData {
 }
 
 List<CarouselData> carouselData = [
-  CarouselData(image: 'images/', description: ''),
-  CarouselData(image: 'images/', description: ''),
-  CarouselData(image: 'images/', description: ''),
-  CarouselData(image: 'images/', description: ''),
-  CarouselData(image: 'images/', description: ''),
-  CarouselData(image: 'images/', description: ''),
-  CarouselData(image: 'images/', description: ''),
-  CarouselData(image: 'images/', description: ''),
-  CarouselData(image: 'images/', description: ''),
-  CarouselData(image: 'images/', description: ''),
+  CarouselData(image: 'images/glacier.jpg', description: 'Glacier'),
+  CarouselData(image: 'images/houseonwater1.jp', description: 'House On Water'),
+  CarouselData(image: 'images/mountain.jpg', description: 'Mountain'),
+  CarouselData(image: 'images/landscape.jpg', description: 'Landscape'),
+  CarouselData(image: 'images/pool.jpg', description: 'Pool'),
+  CarouselData(image: 'images/rock4.jpg', description: 'Rocks'),
+  CarouselData(image: 'images/dracula.jpg', description: 'Dracula Parrot'),
+  CarouselData(image: 'images/road.jpg', description: 'Road'),
+  CarouselData(image: 'images/river1.jpg', description: 'River'),
+  CarouselData(image: 'images/river2.jpg', description: 'River'),
 ];
