@@ -37,7 +37,9 @@ class _CarouselUIState extends State<CarouselUI> {
         child: Container(
           child: CarouselSlider.builder(
             initialPage: _current,
-            viewportFraction: 0.79,
+            height: 400,
+            autoPlay: true,
+            viewportFraction: 0.7,
             onPageChanged: (index) {
               setState(() {
                 _current = index;
