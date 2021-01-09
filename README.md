@@ -1,9 +1,16 @@
 # FlutterUIChallenge
-A set of Flutter UI's I've been working on.
-One UI is designed everyday
+A set of Flutter UI's I've been working on.<br/>
+
+**I design a Flutter UI everyday!**
 
 ## Day 1
-#### Login Page 
+**Login Page**
 
 ## Day 2
-#### CarouselSlider 
+**CarouselSlider**
+
+## Day 3
+**Profile Page**
+
+## Day 4
+**WhatsApp Clone**
