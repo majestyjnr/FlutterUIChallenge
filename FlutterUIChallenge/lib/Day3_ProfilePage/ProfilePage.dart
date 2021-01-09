@@ -5,6 +5,7 @@ void main() {
   runApp(
     MaterialApp(
       title: 'Profile Page',
+      debugShowCheckedModeBanner: false,
       home: ProfilePage(),
     ),
   );
@@ -29,54 +30,153 @@ class _ProfilePageState extends State<ProfilePage> {
           ),
         ),
         centerTitle: true,
-        leading: Container(
-          width: 50,
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
-            color: Colors.white70,
-          ),
-          child: IconButton(
-              icon: Icon(
-                CupertinoIcons.back,
-                color: Colors.blue,
-              ),
-              onPressed: () {}),
-        ),
+        leading: IconButton(
+            icon: Icon(
+              CupertinoIcons.back,
+              color: Colors.blue,
+            ),
+            onPressed: () {}),
         elevation: 0,
         backgroundColor: Colors.white,
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          Row(
-            children: <Widget>[
-              CircleAvatar(
-                child: Image(
-                  image: AssetImage('images/rat3.jpg'),
+          Padding(
+            padding: const EdgeInsets.all(12),
+            child: Row(
+              children: <Widget>[
+                CircleAvatar(
+                  radius: 30,
+                  backgroundImage: AssetImage('images/rat3.jpg'),
                 ),
-              ),
-              SizedBox(
-                width: 2,
-              ),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Text(
-                    'Solomon Aidoo Junior',
-                    style: TextStyle(fontWeight: FontWeight.bold),
-                  ),
-                  SizedBox(
-                    height: 1,
-                  ),
-                  Text(
-                    '134*******132',
-                    style: TextStyle(
-                      fontSize: 10,
+                SizedBox(
+                  width: 10,
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(
+                      'Solomon Aidoo Junior',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20,
+                      ),
                     ),
-                  ),
-                ],
-              )
-            ],
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text(
+                      '134*******132',
+                      style: TextStyle(
+                        color: Colors.grey,
+                        fontSize: 16,
+                      ),
+                    ),
+                  ],
+                )
+              ],
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(12.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    Container(
+                      width: 50,
+                      height: 50,
+                      decoration: BoxDecoration(
+                        color: Color.fromRGBO(242, 242, 242, 1),
+                        shape: BoxShape.circle,
+                      ),
+                      child: Center(
+                        child: Text(
+                          '140',
+                          style: TextStyle(fontSize: 20),
+                        ),
+                      ),
+                    ),
+                    Text(
+                      'Deposits',
+                      style: TextStyle(fontSize: 14, color: Colors.grey),
+                    ),
+                  ],
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    Container(
+                      width: 50,
+                      height: 50,
+                      decoration: BoxDecoration(
+                        color: Color.fromRGBO(242, 242, 242, 1),
+                        shape: BoxShape.circle,
+                      ),
+                      child: Center(
+                        child: Text(
+                          '14',
+                          style: TextStyle(fontSize: 20),
+                        ),
+                      ),
+                    ),
+                    Text(
+                      'Withdrawals',
+                      style: TextStyle(fontSize: 14, color: Colors.grey),
+                    ),
+                  ],
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    Container(
+                      width: 50,
+                      height: 50,
+                      decoration: BoxDecoration(
+                        color: Color.fromRGBO(242, 242, 242, 1),
+                        shape: BoxShape.circle,
+                      ),
+                      child: Center(
+                        child: Text(
+                          '14',
+                          style: TextStyle(fontSize: 20),
+                        ),
+                      ),
+                    ),
+                    Text(
+                      'Transfers',
+                      style: TextStyle(fontSize: 14, color: Colors.grey),
+                    ),
+                  ],
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    Container(
+                      width: 50,
+                      height: 50,
+                      decoration: BoxDecoration(
+                        color: Color.fromRGBO(242, 242, 242, 1),
+                        shape: BoxShape.circle,
+                      ),
+                      child: Center(
+                        child: Text(
+                          '14',
+                          style: TextStyle(fontSize: 20),
+                        ),
+                      ),
+                    ),
+                    Text(
+                      'Receivals',
+                      style: TextStyle(fontSize: 14, color: Colors.grey),
+                    ),
+                  ],
+                ),
+              ],
+            ),
           ),
         ],
       ),
