@@ -13,4 +13,4 @@ A set of Flutter UI's I've been working on.<br/>
 **Profile Page**
 
 ## Day 4
-**WhatsApp Clone**
+**WhatsApp UI Clone**
