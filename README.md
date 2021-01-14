@@ -3,6 +3,9 @@ A set of Flutter UI's I've been working on.<br/>
 
 **I design a Flutter UI everyday!**
 
+**NB** The pages should be run directly from their individual files! **Don't run it from the main.dart file!**
+<br/>
+
 ## Day 1
 **Login Page**
 
@@ -19,4 +22,7 @@ A set of Flutter UI's I've been working on.<br/>
 **Nested Tabs**
 
 ## Day 6
-** Chat Screen**
+**Chat Screen**
+
+## Day 7
+**Working With Containers**
