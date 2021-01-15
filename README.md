@@ -4,6 +4,7 @@ A set of Flutter UI's I've been working on.<br/>
 **I design a Flutter UI everyday!**
 
 **NB** The pages should be run directly from their individual files! **Don't run it from the main.dart file!**
+
 <br/>
 
 ## Day 1
@@ -26,3 +27,6 @@ A set of Flutter UI's I've been working on.<br/>
 
 ## Day 7
 **Working With Containers**
+
+## Day 8
+**Data Tables**
